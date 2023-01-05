@@ -1,0 +1,56 @@
+right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+#nav {
+    display: block;
+    background-color: rgb(133, 129, 129);
+    display: inline-block;
+    width: 96vw;
+    border: 5px solid #4917a7;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(133, 129, 129);
+}
+
+#quizBody {
+    text-align: center;
+    padding: 10vh;
+}
+
+h4 {
+    padding: 10px 8px 10px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border: none;
+    background-color: #4917a7;
+    color: rgb(133, 129, 129);
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 5px;
+}
+
+button:hover {
+    transition-duration: 0.5s;
+    background-color: #4917a7;
+}
+
+#quiz {
+    text-align: center;
+}
